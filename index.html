@@ -4,8 +4,50 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
     <script defer src="app.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="main-container">
+      <div class="left-container">
+        <div class="details">
+          <h1 class="temperature">08&deg</h1>
+          <div class="city-details">
+            <h2 class="city">London</h2>
+            <h4>
+              <span class="time">6:04</span><span class="date">6 Oct 19</span>
+            </h4>
+          </div>
+          <div class="symbol">
+            <div class="material-symbols-outlined" id="logo">rainy</div>
+            <h5 class="symbol-name">Rainy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="right-container">
+        <div class="details-right">
+          <div class="search-bar-container">
+            <input
+              type="text"
+              id="location"
+              placeholder=" Enter location"
+              class="location-input"
+            />
+            <span class="material-symbols-outlined" id="search-button">
+              search
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
+
+<!-- partly_cloudy_day
+sunny
+wind_power
+rainy -->
